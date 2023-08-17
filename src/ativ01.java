@@ -1,18 +1,18 @@
 import java.util.Scanner;
 
-public class ex02 {
+public class ativ01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
         System.out.print("Digite o primeiro número: ");
-        double n1 = scanner.nextDouble();
+        int n1 = scanner.nextInt();
         
         System.out.print("Digite o segundo número: ");
-        double n2 = scanner.nextDouble();
+        int n2 = scanner.nextInt();
         
-        double resultado = n1 * n2;
+        int soma = n1 + n2;
         
-        System.out.println("O resultado da multiplicação é: " + resultado);
+        System.out.println("A soma dos números é: " + soma);
         
         scanner.close();
     }
